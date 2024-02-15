@@ -20,8 +20,13 @@ function handleKeyboardKeyUpEvent(event){
 
     // console.log(currentAlphabetElement.innerText)
     if( playerPressed === expectedAlphabet){
-        console.log('you win');
         console.log('you got a point!', expectedAlphabet)
+        // update score 
+        // 1. het the current score 
+        // 2. increase the 
+
+
+        // start a new round 
         removeBackgroundColorById(expectedAlphabet)
         continueGame();
     }
